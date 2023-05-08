@@ -8,8 +8,8 @@ import { useEffect } from 'react';
 import { useSetRecoilState } from 'recoil';
 import {fetchUsers} from './services/users'
 import { fetchTweets } from './services/tweets';
-import { tweetsAtom } from './Recoil/tweets';
-import {usersAtom} from './Recoil/users'
+import { tweetsAtom } from './Recoil/Tweets';
+import {usersAtom} from './Recoil/Users'
 
 
 
